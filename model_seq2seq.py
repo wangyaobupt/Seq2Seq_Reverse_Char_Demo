@@ -357,8 +357,8 @@ def predict(input_sentence):
     print('  Response Words: {}'.format(" ".join([target_int_to_letter[i] for i in answer_logits if i != pad])))
 
 if __name__ == '__main__':
-    #train()
-    predict('jellyfish')
+    train()
+    predict('octupus')
     #print source_sentences[:2]
     #print source_letter_ids[:2]
     #print source_letter_to_int
